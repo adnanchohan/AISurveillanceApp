@@ -48,7 +48,10 @@
         android:layout_marginBottom="70dp"
         android:background="@drawable/signin_bg"
         android:orientation="vertical"
-        android:padding="40dp"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -70,6 +73,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
             android:text="Enter your username and password"
             android:textColor="@color/white" />
 
@@ -116,6 +121,18 @@
             android:text="Login"
             android:textSize="12dp"
             android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Dont't have an account? Sign up"
+            android:textColor="@color/white" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
